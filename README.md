@@ -4,6 +4,8 @@
 
 vi doNothing.s
 
+vi timer_run.sh
+
 as -g -o doNothing.o doNothing.s
 
 ld -g -o doNothing doNothing.o
